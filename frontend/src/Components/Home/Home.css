@@ -1,0 +1,51 @@
+.home-text{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.home-t{
+  color: aliceblue;
+  font-size: 40px;
+
+}
+.role{
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+.home-p{
+  color: aliceblue;
+  margin-top: 100px;
+}
+.sidebar-wrapper{
+  margin-left: 20px;
+}
+
+.exemples{
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+.img-slide{
+  max-width: 80%;
+  margin-left: 60px;
+  border-radius: 20px;
+}
+@media (max-width: 600px){
+  .img-slide{
+  max-width: 70%;
+  margin-left: 60px;
+  border-radius: 20px;
+}
+.text{
+  padding-top: 40px;
+}
+  .role{
+    font-size: 16px;
+  }
+  .home-t{
+    font-size: 30px;
+  }
+  .home-p{
+    margin-top: 40px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,14 @@
+.cursor-halo {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.80) 0%, transparent 95%);
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.1s ease-out;
+  mix-blend-mode: overlay;
+  filter: blur(80px);
+}
+

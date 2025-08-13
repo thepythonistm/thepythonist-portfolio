@@ -1,0 +1,30 @@
+.video-bg{
+    
+}
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+.mobile-bg{
+    display: none;
+}
+@media (max-width: 600px) {
+    .video-bg {
+        display: none;
+    }
+    .mobile-bg {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+    }
+}
